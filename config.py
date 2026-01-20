@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DarkAarush/wynk ",
+    "https://github.com/anuragy89/res.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mahadev_Update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Mahadev_Update")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/stranger_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,18 +84,18 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/KSKqQpq/x.jpg"
+    "START_IMG_URL", "https://ibb.co/bMsWRjdg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/KSKqQpq/x.jpg"
+    "PING_IMG_URL", "https://ibb.co/bMsWRjdg"
 )
-PLAYLIST_IMG_URL = "https://i.ibb.co/KSKqQpq/x.jpg"
-STATS_IMG_URL = "https://i.ibb.co/KSKqQpq/x.jpg"
-TELEGRAM_AUDIO_URL = "https://i.ibb.co/KSKqQpq/x.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/7ywsif.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/7ywsif.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/7ywsif.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/7ywsif.jpg"
+PLAYLIST_IMG_URL = "https://ibb.co/bMsWRjdg"
+STATS_IMG_URL = "https://ibb.co/bMsWRjdg"
+TELEGRAM_AUDIO_URL = "https://ibb.co/bMsWRjdg"
+TELEGRAM_VIDEO_URL = "https://ibb.co/bMsWRjdg"
+STREAM_IMG_URL = "https://ibb.co/bMsWRjdg"
+SOUNCLOUD_IMG_URL = "https://ibb.co/bMsWRjdg"
+YOUTUBE_IMG_URL = "https://ibb.co/bMsWRjdg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/7ywsif.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/7ywsif.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/7ywsif.jpg"
